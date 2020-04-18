@@ -48,7 +48,7 @@ then i found tool deepsound to john
 ```bash
 $ deepsound2john 23329117_Fixed > hash.txt
 $
-$ john --wordlist=wordlist_len8.txt hash.txt
+$ john --wordlist=wordlist_len7.txt hash.txt
 $
 ```
 
