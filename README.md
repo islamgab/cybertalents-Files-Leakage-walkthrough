@@ -52,6 +52,46 @@ $ john --wordlist=wordlist_len8.txt hash.txt
 $
 ```
 
-Get Pass *@dhoom@*
+Get Pass *@dh00m@*
+
+and get flag file content this
 
 
+```
+uuuuuuuuuuuuuuuu4zzzzzzzzzzzzzzz
+yyyyyyyyycjjjjjjjjjjjjjjjjjjjjjj
+ssssssssssssssssssssssssssssssem
+iiiiiiiiii9vvvvvvvvvvvvvvvvvvvvv
+zzzzzzzzzzzzzzzzzzzzzzzz8zzzzzzz
+ooo1wwwwwwwwwwwwwwwwwwwwwwwwwwww
+mmmm6ppppppppppppppppppppppppppp
+iiiiiiiiiiiiiiiiiiiiicuuuuuuuuuu
+rrrrrrrr1yyyyyyyyyyyyyyyyyyyyyyy
+sssss6uuuuuuuuuuuuuuuuuuuuuuuuuu
+yyyyyyyyyyyyyyyyyyyyyyyfzzzzzzzz
+i6zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+kkkkkk2vvvvvvvvvvvvvvvvvvvvvvvvv
+oofiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+tttttttttttttttttttttttttessssss
+jjjjjjjjjjjjjjjjjjjjjjjjjjjjjcqq
+sssssssssss1llllllllllllllllllll
+jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj9
+uuuuuuuuuuuuuuuuuuuuuuuuuu8mmmmm
+iiiiiii3iiiiiiiiiiiiiiiiiiiiiiii
+nnnnnnnnnnnnnnnnnn7rrrrrrrrrrrrr
+tttttttttttttttttellllllllllllll
+ssssssssssssssssssssssssssscjjjj
+ttttttttttttttt5yyyyyyyyyyyyyyyy
+oooooooooooooemmmmmmmmmmmmmmmmmm
+nnnnnnnnnnnnnnnnnnnnnnammmmmmmmm
+fuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnakkk
+oooooooooooooooooooo0ppppppppppp
+nnnnnnnnnnnn2ooooooooooooooooooo
+mmmmmmmmmmmmmm8wwwwwwwwwwwwwwwww
+jjjjjjjjjjjjjjjjjjj9ssssssssssss
+```
+
+
+i will left here to think where is flag
+thanks
