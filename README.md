@@ -1,17 +1,22 @@
 [{ islamgab }](http://facebook.com/islam.jabir)
 ### Writeups
 
-**Challenge Name:** Files Leakage
+## Description
+* **Challenge Name:** Files Leakage
+* **Points:** 100
+* **Level:** medium
 
-**Category:** Digital Forensics
 
-**Level:** medium
+## Tools
+* GNU strings 2.31.1
+* [deepsound2john](https://github.com/magnumripper/JohnTheRipper/blob/bleeding-jumbo/run/deepsound2john.py)
+* shntool
+* stegolsb wavsteg -r -i
+* DeepSound v2.0
+* Wireshark 2.6.7 https://www.wireshark.org/docs/relnotes/wireshark-2.6.7.html
+* Foremost 1.5.7 http://foremost.sourceforge.net/
 
-**Points:** 100
-
-**Challenge Description:** A CIA Agent Leaked some files, but can you hear what is beyond the storm ?
-
-**Answer:** To-Do
+## Writeup
 
 ***File contents***
 ```
@@ -29,6 +34,7 @@ Wav File:
 
 - 23329117.WAV
 ```
+
 All file have marked "E5" Symbole as deleted file from "KINGSTON" USB flash disk
 
 
