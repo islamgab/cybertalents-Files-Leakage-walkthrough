@@ -76,8 +76,8 @@ content: @dh00m@
 
 thats make sense as this is a password
 
-(https://github.com/islamgab/Files_Leakage/blob/master/01.png)
-(https://github.com/islamgab/Files_Leakage/blob/master/VFAT_directory_entries.png)
+E5: (https://github.com/islamgab/Files_Leakage/blob/master/01.png)
+FAT: (https://github.com/islamgab/Files_Leakage/blob/master/VFAT_directory_entries.png)
 
 
 Get Pass *@dh00m@*
