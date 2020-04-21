@@ -70,19 +70,21 @@ and look for "VFAT long file names" image up
 
 <img src="https://github.com/islamgab/Files_Leakage/blob/master/01.png" width="400">
 
-****0xe5**** mean file deleted in ****Frame 34**** in **OFFSET 0290**** this offset Ref for Section in ****Frame 935****
+****0xe5**** mean file deleted in ****Frame 34**** in ****OFFSET 0290**** this offset Ref for Section in ****Frame 935****
 
 ```
 filename : @dh00m@.txt
 content: @dh00m@
-```
+# before deleted from flash memory
+filename: [0xe5]dh00m@.txt
+contenet : @dh00m@ << content not changed becouse may be want to restore it
 
+```
 That's make sense as this is a password
 
 
-Get Pass *@dh00m@*
+Get Pass **@dh00m@**
 and get flag file content this
-
 
 ```
 uuuuuuuuuuuuuuuu4zzzzzzzzzzzzzzz
