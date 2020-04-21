@@ -53,9 +53,7 @@ then i found tool deepsound to john
 
 ```bash
 $ deepsound2john 23329117_Fixed > hash.txt
-$
-$ john --wordlist=wordlist_len5-9.txt hash.txt # Make sure that wordlist UTF-8
-$
+$ john --wordlist=wordlist_len5-9.txt hash.txt # **Make sure that wordlist UTF-8**
 ```
 
 ***Advanced Method to get pass***
