@@ -58,7 +58,7 @@ $ john --wordlist=wordlist_len5-9.txt hash.txt # Make sure that wordlist UTF-8
 $
 ```
 
-*** Advanced Method to get pass ***
+***Advanced Method to get pass***
 
 first thing take look to https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system
 
