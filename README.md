@@ -35,22 +35,43 @@ Wav File:
 - 23329117.WAV
 ```
 
-All file have marked "E5" Symbole as deleted file from "KINGSTON" USB flash disk
 
 
-i created a wordlist from all file for challenge
+that`s a first method for get pass
+i created a wordlist from all file for challenge and for pcap also
 
 ```bash
+$ for i in $(ls); do strings $i | awk length"$1<5" >> wordlist_len5.txt; done
+$ for i in $(ls); do strings $i | awk length"$1<6" >> wordlist_len6.txt; done
 $ for i in $(ls); do strings $i | awk length"$1<7" >> wordlist_len7.txt; done
+$ for i in $(ls); do strings $i | awk length"$1<8" >> wordlist_len8.txt; done
+$ for i in $(ls); do strings $i | awk length"$1<9" >> wordlist_len9.txt; done
+
+cat * > wordlist_len5-9.txt
+
+
 ```
 then i found tool deepsound to john
 
 ```bash
 $ deepsound2john 23329117_Fixed > hash.txt
 $
-$ john --wordlist=wordlist_len7.txt hash.txt
+$ john --wordlist=wordlist_len5-9.txt hash.txt
 $
 ```
+
+Advanced Method to get pass
+
+first thing take look to https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system
+and look for "VFAT long file names" image up
+***All file have marked "E5" Symbole as deleted file from "KINGSTON" USB flash disk***
+**0xe5** mean file deleted in **Frame 34** in **OFFSET 0290** this OFFSET Ref for Section in **Frame 935**
+filename : @dh00m@.txt
+content: @dh00m@
+thats make sense as this is a password
+(01.png)
+(VFAT_directory_entries.png)
+
 
 Get Pass *@dh00m@*
 
