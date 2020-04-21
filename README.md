@@ -16,9 +16,7 @@
 * Wireshark 2.6.7 https://www.wireshark.org/docs/relnotes/wireshark-2.6.7.html
 * Foremost 1.5.7 http://foremost.sourceforge.net/
 
-## Writeup
-
-***File contents***
+***Pcap File contents***
 ```
 Pdf Files:
 
@@ -56,31 +54,33 @@ then i found tool deepsound to john
 ```bash
 $ deepsound2john 23329117_Fixed > hash.txt
 $
-$ john --wordlist=wordlist_len5-9.txt hash.txt
+$ john --wordlist=wordlist_len5-9.txt hash.txt # Make sure that wordlist UTF-8
 $
 ```
 
-Advanced Method to get pass
+*** Advanced Method to get pass ***
 
 first thing take look to https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system
 
+<img src="https://github.com/islamgab/Files_Leakage/blob/master/VFAT_directory_entries.png" width="400">
+
 and look for "VFAT long file names" image up
 
-***All file have marked "E5" Symbole as deleted file from "KINGSTON" USB flash disk***
+****All file have marked "E5" Symbole as deleted file from "KINGSTON" USB flash disk****
 
-**0xe5** mean file deleted in **Frame 34** in **OFFSET 0290** this OFFSET Ref for Section in **Frame 935**
-
-filename : @dh00m@.txt
-
-content: @dh00m@
-
-thats make sense as this is a password
 <img src="https://github.com/islamgab/Files_Leakage/blob/master/01.png" width="400">
-<img src="https://github.com/islamgab/Files_Leakage/blob/master/VFAT_directory_entries.png" width="400">
+
+****0xe5**** mean file deleted in ****Frame 34**** in **OFFSET 0290**** this offset Ref for Section in ****Frame 935****
+
+```
+filename : @dh00m@.txt
+content: @dh00m@
+```
+
+That's make sense as this is a password
 
 
 Get Pass *@dh00m@*
-
 and get flag file content this
 
 
@@ -91,16 +91,8 @@ ssssssssssssssssssssssssssssssem
 iiiiiiiiii9vvvvvvvvvvvvvvvvvvvvv
 zzzzzzzzzzzzzzzzzzzzzzzz8zzzzzzz
 ooo1wwwwwwwwwwwwwwwwwwwwwwwwwwww
-mmmm6ppppppppppppppppppppppppppp
-iiiiiiiiiiiiiiiiiiiiicuuuuuuuuuu
-rrrrrrrr1yyyyyyyyyyyyyyyyyyyyyyy
-sssss6uuuuuuuuuuuuuuuuuuuuuuuuuu
 ...
 ...
-...
-fuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
-nnnnnnnnnnnnnnnnnnnnnnnnnnnnakkk
-oooooooooooooooooooo0ppppppppppp
 nnnnnnnnnnnn2ooooooooooooooooooo
 mmmmmmmmmmmmmm8wwwwwwwwwwwwwwwww
 jjjjjjjjjjjjjjjjjjj9ssssssssssss
