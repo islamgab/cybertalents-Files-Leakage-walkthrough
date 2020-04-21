@@ -97,6 +97,8 @@ mmmmmmmmmmmmmm8wwwwwwwwwwwwwwwww
 jjjjjjjjjjjjjjjjjjj9ssssssssssss
 ```
 
+here we found a uniq char in all line i keep it on this pos and sort it one time left becouse 32 line and once sort it below i get the flag
+
 ```
 uuuuuuuuuuuuuuuu[4]zzzzzzzzzzzzzzz
 yyyyyyyyy[c]jjjjjjjjjjjjjjjjjjjjjj
