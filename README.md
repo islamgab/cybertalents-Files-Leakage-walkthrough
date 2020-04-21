@@ -75,9 +75,8 @@ filename : @dh00m@.txt
 content: @dh00m@
 
 thats make sense as this is a password
-
-![E5](https://github.com/islamgab/Files_Leakage/blob/master/01.png)
-![FAT32](https://github.com/islamgab/Files_Leakage/blob/master/VFAT_directory_entries.png)
+<img src="https://github.com/islamgab/Files_Leakage/blob/master/01.png" width="400">
+<img src="https://github.com/islamgab/Files_Leakage/blob/master/VFAT_directory_entries.png" width="400">
 
 
 Get Pass *@dh00m@*
@@ -96,22 +95,9 @@ mmmm6ppppppppppppppppppppppppppp
 iiiiiiiiiiiiiiiiiiiiicuuuuuuuuuu
 rrrrrrrr1yyyyyyyyyyyyyyyyyyyyyyy
 sssss6uuuuuuuuuuuuuuuuuuuuuuuuuu
-yyyyyyyyyyyyyyyyyyyyyyyfzzzzzzzz
-i6zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-kkkkkk2vvvvvvvvvvvvvvvvvvvvvvvvv
-oofiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-tttttttttttttttttttttttttessssss
-jjjjjjjjjjjjjjjjjjjjjjjjjjjjjcqq
-sssssssssss1llllllllllllllllllll
-jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj9
-uuuuuuuuuuuuuuuuuuuuuuuuuu8mmmmm
-iiiiiii3iiiiiiiiiiiiiiiiiiiiiiii
-nnnnnnnnnnnnnnnnnn7rrrrrrrrrrrrr
-tttttttttttttttttellllllllllllll
-ssssssssssssssssssssssssssscjjjj
-ttttttttttttttt5yyyyyyyyyyyyyyyy
-oooooooooooooemmmmmmmmmmmmmmmmmm
-nnnnnnnnnnnnnnnnnnnnnnammmmmmmmm
+...
+...
+...
 fuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
 nnnnnnnnnnnnnnnnnnnnnnnnnnnnakkk
 oooooooooooooooooooo0ppppppppppp
@@ -130,26 +116,9 @@ ooo[1]wwwwwwwwwwwwwwwwwwwwwwwwwwww
 mmmm[6]ppppppppppppppppppppppppppp
 iiiiiiiiiiiiiiiiiiiiicuuuuuuuuuu
 rrrrrrrr1yyyyyyyyyyyyyyyyyyyyyyy
-sssss6uuuuuuuuuuuuuuuuuuuuuuuuuu
-yyyyyyyyyyyyyyyyyyyyyyyfzzzzzzzz
-i6zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-kkkkkk2vvvvvvvvvvvvvvvvvvvvvvvvv
-oofiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-tttttttttttttttttttttttttessssss
-jjjjjjjjjjjjjjjjjjjjjjjjjjjjjcqq
-sssssssssss1llllllllllllllllllll
-jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj9
-uuuuuuuuuuuuuuuuuuuuuuuuuu8mmmmm
-iiiiiii3iiiiiiiiiiiiiiiiiiiiiiii
-nnnnnnnnnnnnnnnnnn7rrrrrrrrrrrrr
-tttttttttttttttttellllllllllllll
-ssssssssssssssssssssssssssscjjjj
-ttttttttttttttt5yyyyyyyyyyyyyyyy
-oooooooooooooemmmmmmmmmmmmmmmmmm
-nnnnnnnnnnnnnnnnnnnnnnammmmmmmmm
-fuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
-nnnnnnnnnnnnnnnnnnnnnnnnnnnnakkk
-oooooooooooooooooooo0ppppppppppp
+...
+...
+...
 nnnnnnnnnnnn2ooooooooooooooooooo
 mmmmmmmmmmmmmm8wwwwwwwwwwwwwwwww
 jjjjjjjjjjjjjjjjjjj9ssssssssssss
