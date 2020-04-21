@@ -63,14 +63,21 @@ $
 Advanced Method to get pass
 
 first thing take look to https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system
+
 and look for "VFAT long file names" image up
+
 ***All file have marked "E5" Symbole as deleted file from "KINGSTON" USB flash disk***
+
 **0xe5** mean file deleted in **Frame 34** in **OFFSET 0290** this OFFSET Ref for Section in **Frame 935**
+
 filename : @dh00m@.txt
+
 content: @dh00m@
+
 thats make sense as this is a password
-(01.png)
-(VFAT_directory_entries.png)
+
+(https://github.com/islamgab/Files_Leakage/blob/master/01.png)
+(https://github.com/islamgab/Files_Leakage/blob/master/VFAT_directory_entries.png)
 
 
 Get Pass *@dh00m@*
