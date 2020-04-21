@@ -34,9 +34,8 @@ Wav File:
 ```
 
 
-
-that`s a first method for get pass
-i created a wordlist from all file for challenge and for pcap also
+***Easy method to get pass***
+I created a wordlist from all file for challenge and for pcap also with all possible length
 
 ```bash
 $ for i in $(ls); do strings $i | awk length"$1<5" >> wordlist_len5.txt; done
