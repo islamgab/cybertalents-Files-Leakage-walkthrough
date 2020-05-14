@@ -1,4 +1,4 @@
-[{ islamgab }](http://facebook.com/islam.jabir)
+[{ islamgab }](https://twitter.com/islam9ab)
 ### Writeups
 
 ## Description
